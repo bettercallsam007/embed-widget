@@ -33,7 +33,7 @@
 
   // Create an iframe element
   var iframe = document.createElement("iframe");
-  iframe.src = "http://127.0.0.1:5500/app.html"; // Replace with your chat application's URL
+  iframe.src = "https://website-embed.netlify.app/app.html"; // Replace with your chat application's URL
   iframe.id = "chat-iframe";
   iframe.allow = "autoplay; camera; microphone"; // Customize permissions as needed
 
